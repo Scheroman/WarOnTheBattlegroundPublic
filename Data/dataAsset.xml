@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XmlDataAsset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Wood>
+    <CurrentValue>0</CurrentValue>
+    <StartValue>200</StartValue>
+  </Wood>
+  <Gold>
+    <CurrentValue>0</CurrentValue>
+    <StartValue>100</StartValue>
+  </Gold>
+  <Food>
+    <CurrentValue>0</CurrentValue>
+    <StartValue>300</StartValue>
+  </Food>
+  <PlayerBGoldExtra>50</PlayerBGoldExtra>
+  <ResourcePerWoodNode>50</ResourcePerWoodNode>
+  <ResourcePerGoldNode>50</ResourcePerGoldNode>
+  <ResourcePerFoodNode>50</ResourcePerFoodNode>
+  <TurnBehaviour>1</TurnBehaviour>
+  <Units>
+    <XMLBaseUnit xsi:type="XMLMilitaryUnit">
+      <Name>Berserker</Name>
+      <WoodCost>100</WoodCost>
+      <GoldCost>100</GoldCost>
+      <FoodCost>100</FoodCost>
+      <MoveRange>3</MoveRange>
+      <Health>140</Health>
+      <MeleeArmor>0</MeleeArmor>
+      <PierceArmor>20</PierceArmor>
+      <Damage>30</Damage>
+      <DamageType>0</DamageType>
+      <AttackRange>1</AttackRange>
+      <OnHitEffects />
+    </XMLBaseUnit>
+    <XMLBaseUnit xsi:type="XMLMilitaryUnit">
+      <Name>Knight</Name>
+      <WoodCost>0</WoodCost>
+      <GoldCost>200</GoldCost>
+      <FoodCost>100</FoodCost>
+      <MoveRange>3</MoveRange>
+      <Health>160</Health>
+      <MeleeArmor>0</MeleeArmor>
+      <PierceArmor>0</PierceArmor>
+      <Damage>40</Damage>
+      <DamageType>0</DamageType>
+      <AttackRange>1</AttackRange>
+      <OnHitEffects />
+    </XMLBaseUnit>
+    <XMLBaseUnit xsi:type="XMLMilitaryUnit">
+      <Name>Spearman</Name>
+      <WoodCost>100</WoodCost>
+      <GoldCost>50</GoldCost>
+      <FoodCost>50</FoodCost>
+      <MoveRange>2</MoveRange>
+      <Health>50</Health>
+      <MeleeArmor>20</MeleeArmor>
+      <PierceArmor>0</PierceArmor>
+      <Damage>30</Damage>
+      <DamageType>0</DamageType>
+      <AttackRange>2</AttackRange>
+      <OnHitEffects />
+    </XMLBaseUnit>
+    <XMLBaseUnit xsi:type="XMLMilitaryUnit">
+      <Name>Ranger</Name>
+      <WoodCost>100</WoodCost>
+      <GoldCost>150</GoldCost>
+      <FoodCost>0</FoodCost>
+      <MoveRange>3</MoveRange>
+      <Health>55</Health>
+      <MeleeArmor>0</MeleeArmor>
+      <PierceArmor>10</PierceArmor>
+      <Damage>35</Damage>
+      <DamageType>1</DamageType>
+      <AttackRange>3</AttackRange>
+      <OnHitEffects />
+    </XMLBaseUnit>
+    <XMLBaseUnit xsi:type="XMLMilitaryUnit">
+      <Name>Scout</Name>
+      <WoodCost>0</WoodCost>
+      <GoldCost>0</GoldCost>
+      <FoodCost>150</FoodCost>
+      <MoveRange>4</MoveRange>
+      <Health>70</Health>
+      <MeleeArmor>0</MeleeArmor>
+      <PierceArmor>15</PierceArmor>
+      <Damage>30</Damage>
+      <DamageType>0</DamageType>
+      <AttackRange>1</AttackRange>
+      <OnHitEffects />
+    </XMLBaseUnit>
+    <XMLBaseUnit xsi:type="XMLMilitaryUnit">
+      <Name>Archer</Name>
+      <WoodCost>150</WoodCost>
+      <GoldCost>0</GoldCost>
+      <FoodCost>0</FoodCost>
+      <MoveRange>2</MoveRange>
+      <Health>40</Health>
+      <MeleeArmor>0</MeleeArmor>
+      <PierceArmor>15</PierceArmor>
+      <Damage>30</Damage>
+      <DamageType>1</DamageType>
+      <AttackRange>3</AttackRange>
+      <OnHitEffects />
+    </XMLBaseUnit>
+    <XMLBaseUnit xsi:type="XMLMilitaryUnit">
+      <Name>Mangonel</Name>
+      <WoodCost>150</WoodCost>
+      <GoldCost>50</GoldCost>
+      <FoodCost>0</FoodCost>
+      <MoveRange>3</MoveRange>
+      <Health>100</Health>
+      <MeleeArmor>0</MeleeArmor>
+      <PierceArmor>25</PierceArmor>
+      <Damage>200</Damage>
+      <DamageType>0</DamageType>
+      <AttackRange>12</AttackRange>
+      <OnHitEffects />
+    </XMLBaseUnit>
+    <XMLBaseUnit>
+      <Name>Villager</Name>
+      <WoodCost>0</WoodCost>
+      <GoldCost>0</GoldCost>
+      <FoodCost>100</FoodCost>
+      <MoveRange>3</MoveRange>
+      <Health>50</Health>
+      <MeleeArmor>0</MeleeArmor>
+      <PierceArmor>10</PierceArmor>
+    </XMLBaseUnit>
+  </Units>
+</XmlDataAsset>
