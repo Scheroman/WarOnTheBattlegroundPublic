@@ -20,7 +20,7 @@
   <Units>
     <XMLBaseUnit xsi:type="XMLMilitaryUnit">
       <Name>Berserker</Name>
-      <WoodCost>100</WoodCost>
+      <WoodCost>500</WoodCost>
       <GoldCost>100</GoldCost>
       <FoodCost>100</FoodCost>
       <MoveRange>3</MoveRange>
