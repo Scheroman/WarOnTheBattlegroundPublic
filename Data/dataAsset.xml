@@ -120,7 +120,7 @@
       <Name>Villager</Name>
       <WoodCost>50</WoodCost>
       <GoldCost>0</GoldCost>
-      <FoodCost>50</FoodCost>
+      <FoodCost>100</FoodCost>
       <MoveRange>3</MoveRange>
       <Health>50</Health>
       <MeleeArmor>0</MeleeArmor>
